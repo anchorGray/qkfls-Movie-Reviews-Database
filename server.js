@@ -124,7 +124,7 @@ app.post("/reviews", function (request, response) {
 
     var doc = {
       "firstName": firstName,
-      "lastName" + "says:"+: lastName,
+      "lastName": lastName,
       "movie": movie,
       "review": review
     };
